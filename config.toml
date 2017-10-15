@@ -1,5 +1,5 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Add comments to any static site in 5 minutes - statikit.com"
 baseURL = "http://example.org/"
 theme = 'wefight'
 publishDir= "docs"
