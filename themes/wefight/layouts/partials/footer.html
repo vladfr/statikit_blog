@@ -1,0 +1,22 @@
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p class="small">Made with <span class="red">&hearts;</span> in Bucharest.</p>
+            <a rel="me" href="https://twitter.com/vladfr" class="twitter-follow-button" data-show-count="false">@vladfr</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+</footer>
+
+<script src="/js/form.js"></script>
+<script>
+    jQuery(document).ready(function(){
+        jQuery('.navbar-burger').click(function () {
+            var id = jQuery(this).attr('data-target');
+            jQuery('#'+id).toggleClass('is-active');
+            jQuery(this).toggleClass('is-active');
+        });
+    });
+</script>
+
+</body>
+</html>
