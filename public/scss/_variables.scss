@@ -1,0 +1,86 @@
+// Colors
+
+$black:        #14004B;
+$black-bis:    lighten($black, 10%);
+$black-ter:    lighten($black, 14%);
+
+$grey-darker:  hsl(0, 0%, 21%);
+$grey-dark:    hsl(0, 0%, 29%);
+$grey:         hsl(0, 0%, 48%);
+$grey-light:   hsl(0, 0%, 71%);
+$grey-lighter: hsl(0, 0%, 86%);
+
+$white-ter:    hsl(0, 0%, 96%);
+$white-bis:    hsl(0, 0%, 98%);
+$white:        hsl(0, 0%, 100%);
+
+$orange:       #EF5531;
+$yellow:       #F6A623;
+$green:        #4EAB6E;
+$turquoise:    #4EAB6E;
+$blue:         #14004B;
+$purple:       hsl(271, 100%, 71%);
+$red:          #C33C3C;
+
+$primarybg: #E0E0EB;
+$primary: #14004B;
+
+$danger: $orange;
+
+$text: rgba(0,0,0,.8);
+$subtitle: $grey;
+
+// Typography
+@import 'https://fonts.googleapis.com/css?family=Ubuntu:100,400,700';
+$family-sans-serif: Ubuntu, "Roboto", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-monospace: monospace;
+$family-serif: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+$render-mode: optimizeLegibility;
+$family-primary: Ubuntu, "Roboto", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+$size-1: 3rem;
+$size-2: 2.5rem;
+$size-3: 2rem;
+$size-4: 1.5rem;
+$size-5: 1.2rem;
+$size-6: 1rem;
+$size-7: 0.75rem;
+
+.post-content {
+  h1, h2, h3, h4 {
+    margin-top: $size-1;
+  }
+
+  h5, h6 {
+    margin-top: $size-2;
+  }
+}
+
+$weight-light: 100;
+$weight-normal: 400;
+$weight-semibold: 400;
+$weight-bold: 700;
+
+// Body
+
+$body-background: #fff;
+$body-size: 18px;
+
+// Responsiveness
+
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 769px;
+// 960px container + 40px
+$desktop: 1000px;
+// 1152px container + 40
+$widescreen: 1192px;
+// 1344px container + 40
+$fullhd: 1384px;
+
+// Miscellaneous
+
+$easing: ease-out;
+$radius-small: 2px;
+$radius: 3px;
+$radius-large: 5px;
+$speed: 86ms;

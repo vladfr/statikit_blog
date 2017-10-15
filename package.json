@@ -11,18 +11,18 @@
     "devp": "gulp watch & hugo serve && fg",
     "test": "echo \"Error: no test specified\" && exit 1",
     "images": "gulp build",
-    "prod": "gulp scss && hugo -b https://wefightwithcards.com/"
+    "prod": "gulp scss && hugo -b https://statikit.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vladfr/wefightwithcards.git"
+    "url": "git+https://github.com/vladfr/statikit_blog.git"
   },
   "author": "Vlad Frățilă <vlad.fratila@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vladfr/wefightwithcards/issues"
+    "url": "https://github.com/vladfr/statikit_blog/issues"
   },
-  "homepage": "https://github.com/vladfr/wefightwithcards#readme",
+  "homepage": "https://statikit.com/",
   "dependencies": {
     "bulma": "^0.4.3",
     "bulmaswatch": "^0.4.2",
