@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="253px" height="52px" viewBox="0 0 253 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+<svg width="265px" height="52px" viewBox="0 0 253 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>logo</title>
-    <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD" transform="translate(-640.000000, -121.000000)" fill="#14004B">
@@ -16,7 +14,7 @@
                             <rect id="Rectangle-path" x="66.0770564" y="23.274454" width="44.4008667" height="4.67377544"></rect>
                             <rect id="Rectangle-path" x="72.1714796" y="32.6220049" width="38.7270912" height="4.67377544"></rect>
                         </g>
-                        <text id="statikit" font-family="Corbel-Bold, Corbel" font-size="40" font-weight="bold">
+                        <text id="statikit" font-family="Open Sans, sans-serif" font-size="40" font-weight="bold">
                             <tspan x="153.838727" y="57.5166016">statikit</tspan>
                         </text>
                     </g>

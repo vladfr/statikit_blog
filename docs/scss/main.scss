@@ -101,7 +101,7 @@ img.logos {
 }
 
 .email-container {
-  margin-bottom: 2.4em;
+  margin: 2.4em 0;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -112,5 +112,9 @@ img.logos {
     @media all and (max-width: $tablet) {
       width: 95%;
     }
+  }
+
+  >p {
+    padding: 0 10px;
   }
 }

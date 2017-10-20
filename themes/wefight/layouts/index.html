@@ -4,7 +4,7 @@
 
 {{ partial "header.html" . }}
 
-{{ range .Site.Sections.home.Pages }}
+{{ range where .Site.Pages "Section" "home" }}
     {{ .Render "empty" }}
 {{ end }}
 

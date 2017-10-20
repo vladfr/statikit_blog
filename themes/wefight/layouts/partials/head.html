@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="generator" content="{{ .Hugo.Generator }}">
-    <meta name="description" content="{{ $.Param "meta.description" | default "A weekly newsletter with top news, articles, decks and banter about your favourite digital card games" }}">
+    <meta name="description" content="{{ $.Param "meta.description" | default "Start a conversation on your static site" }}">
 
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
@@ -26,15 +26,18 @@
     <meta name="msapplication-wide310x150logo" content="/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="/mstile-310x310.png" />
 
-    <meta name="twitter:card" content="{{ $.Param "twitter.card" | default "summary_large_image" }}">
-    <meta name="twitter:site" content="@FightWithCards">
+    <meta itemprop="image" content="/statikit.png">
+    <meta name="twitter:image:src" content="/statikit.png">
+    
+    <meta name="twitter:card" content="{{ $.Param "twitter.card" | default "/statikit.png" }}">
+    <meta name="twitter:site" content="@vladfr">
     <meta name="twitter:title" content="{{ $.Param "twitter.title" | default .Title }}">
     <meta name="twitter:description" content="{{ $.Param "twitter.description" | default ($.Param "meta.description") }}">
-
+    
     <meta property="og:title" content="{{ $.Param "twitter.title" | default .Title }}">
 
     <meta property="og:description" content="{{ $.Param "twitter.description" | default ($.Param "meta.description") }}">
-    <meta property="og:site_name" content="wefightwithcards.com">
+    <meta property="og:site_name" content="statikit.com">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="fb:app_id" content="879888275511318">
